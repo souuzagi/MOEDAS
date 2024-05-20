@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="j.js"></script>
+</head>
+<body>
+    <h1>Chicoin</h1>
+<div>
+    <form action="#">
+        <label for="moeda_origem">Moeda de Origem:</label>
+        <select id="moeda_origem" name="moeda_origem">
+            <option value="BRL">Real Brasileiro</option>
+            <option value="USD">Dólar Americano</option>
+            <option value="EUR">Euro</option>
+            </select>
+        <br>
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" min="0.02" step="0.02" required>
+        <br>
+        <label for="moeda_destino">Moeda de Destino:</label>
+        <select id="moeda_destino" name="moeda_destino">
+            <option value="BRL">Real Brasileiro</option>
+            <option value="USD">Dólar Americano</option>
+            <option value="EUR">Euro</option>
+            </select>
+        <br>
+        <button type="submit">Converter</button>
+    </form>
+</div>
+    <h2 id="resultado"></h2>
+
+    <footer>
+        <p>Copyright © 2024</p>
+    </footer>
+    <!--Alunos: Cauã Vital, Gislaine Souza, Heliana Beatriz, Kawany Helen, Laís Vitória, Maria Isabel, Sanmara Lins e Shamara Karolina-->
+</body>
+</html>
+

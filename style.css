@@ -1,0 +1,49 @@
+body {
+  
+  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p3/28336278-dinheiro-fundo-projeto-modelo-ouro-moedas-desenho-animado-ilustracao-investimento-vetor.jpg);
+ 
+
+    text-align: center;
+    
+  }
+  h1{
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+
+  }
+  div{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(29, 28, 28);
+    color: aliceblue;
+
+  }
+  label{
+    font-size: 150%;
+  }
+  select{
+    font-size: 150%;
+  }
+  input{
+    font-size: 200%;
+  }
+  button{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+h2{
+   position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   font-size: 500%;
+}
