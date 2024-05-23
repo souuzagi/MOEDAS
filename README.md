@@ -1,6 +1,6 @@
 # Projeto das Moedas
 ## Descrição do Projeto
-O Projeto consistia em substituir a Moeda Nacional atual pela Moeda de outro país
+O Projeto consistia em substituir a Moeda Nacional atual pela Moeda de outro país.
 ## Tecnologias Utilizadas
 * HTML
 * JAVASCRIPT
